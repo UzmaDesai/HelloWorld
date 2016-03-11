@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="sample4" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" alpha="0.40000000000000002" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgr-Mv-La9">
+                                <rect key="frame" x="40" y="30" width="75" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="Rr4-BM-TOK"/>
+                                    <constraint firstAttribute="height" constant="40" id="oNN-Nb-Xe1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBT-rk-kwT">
+                                <rect key="frame" x="40" y="100" width="75" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="7BY-pO-vNR"/>
+                                    <constraint firstAttribute="width" constant="75" id="GU6-Oe-NCw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email-id:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTa-5R-gYO">
+                                <rect key="frame" x="40" y="170" width="75" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="NHi-kw-VoM"/>
+                                    <constraint firstAttribute="height" constant="40" id="tWp-pm-3ph"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter full name" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FrC-wJ-MWL">
+                                <rect key="frame" x="123" y="35" width="300" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="iSC-vj-F3i"/>
+                                    <constraint firstAttribute="width" constant="300" id="mf1-xf-Tly"/>
+                                </constraints>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter mobile number" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZT1-UC-9Aa">
+                                <rect key="frame" x="125" y="105" width="300" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="38V-sD-90Z"/>
+                                    <constraint firstAttribute="height" constant="30" id="Vcf-8C-2h2"/>
+                                </constraints>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter email-id" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KiW-gC-S6W">
+                                <rect key="frame" x="125" y="175" width="300" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="iJI-G2-y3P"/>
+                                    <constraint firstAttribute="height" constant="30" id="vbY-CV-9Le"/>
+                                </constraints>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="aBT-rk-kwT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="0zn-hF-Hig"/>
+                            <constraint firstItem="bgr-Mv-La9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="5gr-Yi-Bvn"/>
+                            <constraint firstItem="ZT1-UC-9Aa" firstAttribute="centerY" secondItem="aBT-rk-kwT" secondAttribute="centerY" id="6xx-nJ-E1x"/>
+                            <constraint firstItem="ZT1-UC-9Aa" firstAttribute="leading" secondItem="aBT-rk-kwT" secondAttribute="trailing" constant="10" id="Cuv-7x-5P4"/>
+                            <constraint firstItem="KiW-gC-S6W" firstAttribute="leading" secondItem="WTa-5R-gYO" secondAttribute="trailing" constant="10" id="DOf-6e-KW6"/>
+                            <constraint firstItem="FrC-wJ-MWL" firstAttribute="leading" secondItem="bgr-Mv-La9" secondAttribute="trailing" constant="8" id="DQY-Pu-OWT"/>
+                            <constraint firstItem="FrC-wJ-MWL" firstAttribute="centerY" secondItem="bgr-Mv-La9" secondAttribute="centerY" id="HXA-vZ-tHa"/>
+                            <constraint firstItem="WTa-5R-gYO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="Zct-Rt-dBG"/>
+                            <constraint firstItem="aBT-rk-kwT" firstAttribute="top" secondItem="bgr-Mv-La9" secondAttribute="bottom" constant="30" id="cha-P7-xfH"/>
+                            <constraint firstItem="WTa-5R-gYO" firstAttribute="top" secondItem="aBT-rk-kwT" secondAttribute="bottom" constant="30" id="hEU-sd-Ynk"/>
+                            <constraint firstItem="KiW-gC-S6W" firstAttribute="centerY" secondItem="WTa-5R-gYO" secondAttribute="centerY" id="knJ-si-xMy"/>
+                            <constraint firstItem="bgr-Mv-La9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="p4G-X0-Mvs"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="268" y="362"/>
+        </scene>
+    </scenes>
+</document>

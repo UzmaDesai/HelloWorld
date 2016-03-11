@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="hii-1f-2tx">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Item 1-->
+        <scene sceneID="xuQ-kq-fu3">
+            <objects>
+                <viewController id="7uU-LZ-GIo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="R0W-ps-2fw"/>
+                        <viewControllerLayoutGuide type="bottom" id="A6f-Gq-yYF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="r9u-LC-GyM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="contact" id="HMb-bG-htE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jvt-58-Uuu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="338" y="-466"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="eTv-AT-ptb">
+            <objects>
+                <viewController id="DZ9-Z7-Muu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fpd-fC-NZL"/>
+                        <viewControllerLayoutGuide type="bottom" id="2J9-Ab-5do"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kLw-RE-oRL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="calender" id="ZHS-Y4-aBx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ake-OH-2Q3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="249"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="pN5-2f-hde">
+            <objects>
+                <tabBarController id="hii-1f-2tx" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="nI4-cM-aBs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="7uU-LZ-GIo" kind="relationship" relationship="viewControllers" id="ITr-RO-apY"/>
+                        <segue destination="DZ9-Z7-Muu" kind="relationship" relationship="viewControllers" id="Dc0-rc-kRv"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sl8-hf-EsV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-384" y="-271"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="calender" width="225" height="225"/>
+        <image name="contact" width="204" height="204"/>
+    </resources>
+</document>

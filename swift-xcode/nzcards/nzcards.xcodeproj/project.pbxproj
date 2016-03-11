@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		505753371C86B1A2008578BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505753361C86B1A2008578BA /* AppDelegate.swift */; };
+		505753391C86B1A2008578BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505753381C86B1A2008578BA /* ViewController.swift */; };
+		5057533C1C86B1A2008578BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5057533A1C86B1A2008578BA /* Main.storyboard */; };
+		5057533E1C86B1A2008578BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5057533D1C86B1A2008578BA /* Assets.xcassets */; };
+		505753411C86B1A2008578BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5057533F1C86B1A2008578BA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		505753331C86B1A2008578BA /* nzcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nzcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		505753361C86B1A2008578BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		505753381C86B1A2008578BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5057533B1C86B1A2008578BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5057533D1C86B1A2008578BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		505753401C86B1A2008578BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		505753421C86B1A2008578BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		505753301C86B1A2008578BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5057532A1C86B1A2008578BA = {
+			isa = PBXGroup;
+			children = (
+				505753351C86B1A2008578BA /* nzcards */,
+				505753341C86B1A2008578BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		505753341C86B1A2008578BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				505753331C86B1A2008578BA /* nzcards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		505753351C86B1A2008578BA /* nzcards */ = {
+			isa = PBXGroup;
+			children = (
+				505753361C86B1A2008578BA /* AppDelegate.swift */,
+				505753381C86B1A2008578BA /* ViewController.swift */,
+				5057533A1C86B1A2008578BA /* Main.storyboard */,
+				5057533D1C86B1A2008578BA /* Assets.xcassets */,
+				5057533F1C86B1A2008578BA /* LaunchScreen.storyboard */,
+				505753421C86B1A2008578BA /* Info.plist */,
+			);
+			path = nzcards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		505753321C86B1A2008578BA /* nzcards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505753451C86B1A2008578BA /* Build configuration list for PBXNativeTarget "nzcards" */;
+			buildPhases = (
+				5057532F1C86B1A2008578BA /* Sources */,
+				505753301C86B1A2008578BA /* Frameworks */,
+				505753311C86B1A2008578BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nzcards;
+			productName = nzcards;
+			productReference = 505753331C86B1A2008578BA /* nzcards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5057532B1C86B1A2008578BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = bitjini;
+				TargetAttributes = {
+					505753321C86B1A2008578BA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 5057532E1C86B1A2008578BA /* Build configuration list for PBXProject "nzcards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5057532A1C86B1A2008578BA;
+			productRefGroup = 505753341C86B1A2008578BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				505753321C86B1A2008578BA /* nzcards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		505753311C86B1A2008578BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505753411C86B1A2008578BA /* LaunchScreen.storyboard in Resources */,
+				5057533E1C86B1A2008578BA /* Assets.xcassets in Resources */,
+				5057533C1C86B1A2008578BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5057532F1C86B1A2008578BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505753391C86B1A2008578BA /* ViewController.swift in Sources */,
+				505753371C86B1A2008578BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5057533A1C86B1A2008578BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5057533B1C86B1A2008578BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5057533F1C86B1A2008578BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				505753401C86B1A2008578BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		505753431C86B1A2008578BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		505753441C86B1A2008578BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		505753461C86B1A2008578BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nzcards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitjini.nzcards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		505753471C86B1A2008578BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nzcards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitjini.nzcards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5057532E1C86B1A2008578BA /* Build configuration list for PBXProject "nzcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505753431C86B1A2008578BA /* Debug */,
+				505753441C86B1A2008578BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		505753451C86B1A2008578BA /* Build configuration list for PBXNativeTarget "nzcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505753461C86B1A2008578BA /* Debug */,
+				505753471C86B1A2008578BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5057532B1C86B1A2008578BA /* Project object */;
+}

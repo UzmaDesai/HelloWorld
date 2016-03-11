@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Q5F-0p-4Ck">
+            <objects>
+                <viewController id="6nf-pe-BQb" customClass="ViewController" customModule="table2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sV3-aI-DCa"/>
+                        <viewControllerLayoutGuide type="bottom" id="FkM-fh-B5g"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="09p-oO-sQ8">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="k1q-2g-pRb">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="6nf-pe-BQb" id="uKj-RV-k5C"/>
+                                    <outlet property="delegate" destination="6nf-pe-BQb" id="ScP-03-tYg"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FkM-fh-B5g" firstAttribute="top" secondItem="k1q-2g-pRb" secondAttribute="bottom" id="57B-QB-hZK"/>
+                            <constraint firstItem="k1q-2g-pRb" firstAttribute="top" secondItem="sV3-aI-DCa" secondAttribute="bottom" id="J2s-tp-mlr"/>
+                            <constraint firstItem="k1q-2g-pRb" firstAttribute="leading" secondItem="09p-oO-sQ8" secondAttribute="leading" id="Wpf-bY-cU6"/>
+                            <constraint firstAttribute="trailing" secondItem="k1q-2g-pRb" secondAttribute="trailing" id="v9G-GY-6en"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="k1q-2g-pRb"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="J2s-tp-mlr"/>
+                                <exclude reference="Wpf-bY-cU6"/>
+                                <exclude reference="v9G-GY-6en"/>
+                                <exclude reference="57B-QB-hZK"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="k1q-2g-pRb"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="J2s-tp-mlr"/>
+                                <include reference="Wpf-bY-cU6"/>
+                                <include reference="v9G-GY-6en"/>
+                                <include reference="57B-QB-hZK"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="tableViewTab" destination="k1q-2g-pRb" id="oES-Js-Cws"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HgQ-mt-aVV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="330" y="399.75"/>
+        </scene>
+    </scenes>
+</document>
