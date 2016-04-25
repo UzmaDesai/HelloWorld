@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="cellImage" reuseIdentifier="cellImage" id="KfJ-Mj-Vnt" customClass="ImageCell" customModule="DKImagePickerDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oue-IG-WJw">
+                    <rect key="frame" x="10" y="10" width="130" height="130"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="130" id="Tev-3l-hDQ"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="oue-IG-WJw" secondAttribute="bottom" constant="10" id="Iak-fW-NnE"/>
+                <constraint firstItem="oue-IG-WJw" firstAttribute="top" secondItem="KfJ-Mj-Vnt" secondAttribute="top" constant="10" id="Mly-kw-bgg"/>
+                <constraint firstAttribute="trailing" secondItem="oue-IG-WJw" secondAttribute="trailing" constant="10" id="qjH-hJ-SM4"/>
+                <constraint firstItem="oue-IG-WJw" firstAttribute="leading" secondItem="KfJ-Mj-Vnt" secondAttribute="leading" constant="10" id="sDn-Sy-Y55"/>
+            </constraints>
+            <connections>
+                <outlet property="img" destination="oue-IG-WJw" id="R3y-fx-vTO"/>
+            </connections>
+            <point key="canvasLocation" x="171" y="201"/>
+        </collectionReusableView>
+    </objects>
+</document>
